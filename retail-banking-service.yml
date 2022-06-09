@@ -7,8 +7,9 @@ logging:
 server:
   servlet:
     context-path: /ebanking
-spring:
- 
+    port: 8081
+
+spring: 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: root

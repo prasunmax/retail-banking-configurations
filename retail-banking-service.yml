@@ -13,7 +13,7 @@ server:
 spring: 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    password: root
+    password: example
     url: jdbc:mysql://localhost:3306/retaibank?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
     username: root
   jpa:
